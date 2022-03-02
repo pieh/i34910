@@ -197,8 +197,6 @@ exports.createPages = async ({ actions, graphql }) => {
     )
   )
 
-  process.exit(0)
-
   const fileTemplate = require.resolve(`./src/templates/file`)
   const fileTemplate2 = require.resolve(`./src/templates/file-2`)
   const fileTemplate3 = require.resolve(`./src/templates/file-3`)
